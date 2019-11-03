@@ -1,0 +1,45 @@
+<http-page executeResourcesDynamically="false"
+    name="/oauth2/v1/userinfo_1" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline/%resources%/recorded-artifacts/563f110a-5afd-47b6-bcd5-668ae1dea630.zip"
+    slaProfileEnabled="false" thinkTime="5"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="563f110a-5afd-47b6-bcd5-668ae1dea630">
+    <embedded-action>7dd477af-f137-43b5-8d17-7147de7ef425</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/oauth2/v1/userinfo" path="/oauth2/v1/userinfo"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline/%resources%/recorded-artifacts/563f110a-5afd-47b6-bcd5-668ae1dea630.zip"
+    recordedResponseCode="200" responseSize="258"
+    serverUid="www.googleapis.com" slaProfileEnabled="false"
+    uid="7dd477af-f137-43b5-8d17-7147de7ef425" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e89e4c9e-1bae-49b0-8ed3-82db90274416</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e89e4c9e-1bae-49b0-8ed3-82db90274416.txt</requestContentFileDescription>
+    <header name="authorization" value="OAuth ya29.IqsBogfb19AE3zJq1ne2fotwhVvqt-b2OLQs7rZbdbYvx-cqaKapmRyRTmIAsEyfwMdywgUWNfw8jJ4UW36uv7R1-jyepKlJucaQyjwIjubjyQvLkQftRwkYMLC35mVKYNNxxwtkcRfG0PKSG7LHcVYx6n_d6masyXOjYUsCKzYVXfJGKLnoio9nHC9rhIqpqm_LF6PMA60rMtc1qS9OJTm9GTHBRaaB0BuUqg7h"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+expires: Mon, 01 Jan 1990 00:00:00 GMT&#xd;
+pragma: no-cache&#xd;
+date: Sun, 20 Oct 2019 15:47:55 GMT&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+content-type: application/json; charset=UTF-8&#xd;
+vary: Origin&#xd;
+vary: X-Origin&#xd;
+vary: Referer&#xd;
+content-encoding: gzip&#xd;
+server: ESF&#xd;
+content-length: 206&#xd;
+x-xss-protection: 0&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+x-content-type-options: nosniff&#xd;
+alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

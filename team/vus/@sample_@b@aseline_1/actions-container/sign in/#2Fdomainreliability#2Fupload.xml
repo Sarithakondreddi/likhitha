@@ -1,0 +1,39 @@
+<http-page executeResourcesDynamically="false"
+    name="/domainreliability/upload" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline_1/%resources%/recorded-artifacts/29adb934-f842-405d-9374-9e16f90fab77.zip"
+    slaProfileEnabled="false" thinkTime="565"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="29adb934-f842-405d-9374-9e16f90fab77">
+    <embedded-action>69af1957-abe3-4af0-82d0-8d7d9f5852ac</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_a578dbaf-f97f-406d-9aef-9214ac865e85.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/javascript; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/domainreliability/upload"
+    path="/domainreliability/upload" postType="4"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline_1/%resources%/recorded-artifacts/29adb934-f842-405d-9374-9e16f90fab77.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="accounts.google.com" slaProfileEnabled="false"
+    uid="69af1957-abe3-4af0-82d0-8d7d9f5852ac" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_a40c3028-7b8e-4ae5-adab-8c0f282ae0eb.txt</requestContentFileDescription>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="content-type" value="application/json; charset=utf-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+report-to: {"endpoints":[{"priority":1,"url":"https://beacons.gcp.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons2.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons3.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons4.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://clients2.google.com/domainreliability/upload-nel","weight":1},{"priority":2,"url":"https://beacons5.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":2,"url":"https://beacons5.gvt3.com/domainreliability/upload-nel","weight":1}],"group":"nel","max_age":300}&#xd;
+nel: {"failure_fraction":1,"include_subdomains":false,"max_age":300,"report_to":"nel","success_fraction":0.25}&#xd;
+content-type: application/javascript; charset=utf-8&#xd;
+date: Sun, 20 Oct 2019 15:48:56 GMT&#xd;
+server: Domain Reliability Server&#xd;
+Content-Length: 0&#xd;
+x-xss-protection: 0&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"entries":[{"http_response_code":200,"network_changed":false,"protocol":"SPDY","request_age_ms":64319,"request_elapsed_ms":4009,"sample_rate":0.05,"server_ip":"[::1]:8090","status":"ok","url":"https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard","was_proxied":true}],"reporter":"chrome"}]]></textPostContent>
+</http-action>

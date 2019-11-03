@@ -1,0 +1,56 @@
+<http-page executeResourcesDynamically="false" name="/ListAccounts"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline/%resources%/recorded-artifacts/d9454e80-b4a5-4253-8b04-1b1ee76d061a.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d9454e80-b4a5-4253-8b04-1b1ee76d061a">
+    <embedded-action>0a93280f-3a78-4628-a21b-356dabfdc11d</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/ListAccounts" path="/ListAccounts"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline/%resources%/recorded-artifacts/d9454e80-b4a5-4253-8b04-1b1ee76d061a.zip"
+    recordedResponseCode="200" responseSize="19"
+    serverUid="accounts.google.com" slaProfileEnabled="false"
+    uid="0a93280f-3a78-4628-a21b-356dabfdc11d" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[IA==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_502f866e-3595-4ab5-b770-e88e06813027</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_502f866e-3595-4ab5-b770-e88e06813027.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="" value="" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="gpsia"
+        recordRawValue="1" separator="=" value="1" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="source"
+        recordRawValue="ChromiumBrowser" separator="="
+        value="ChromiumBrowser" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="json"
+        recordRawValue="standard" separator="=" value="standard" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="origin" value="https://www.google.com"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+access-control-allow-origin: https://www.google.com&#xd;
+access-control-allow-credentials: true&#xd;
+x-content-type-options: nosniff&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: Mon, 01 Jan 1990 00:00:00 GMT&#xd;
+date: Sun, 20 Oct 2019 15:47:55 GMT&#xd;
+strict-transport-security: max-age=31536000&#xd;
+content-security-policy: script-src 'report-sample' 'nonce-RC0rH2gg9JyhRy3XR/v6+w' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/IdentityListAccountsHttp/cspreport;worker-src 'self'&#xd;
+content-security-policy: script-src 'nonce-RC0rH2gg9JyhRy3XR/v6+w' 'self' 'unsafe-eval' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.gstatic.com https://www.google-analytics.com;report-uri /_/IdentityListAccountsHttp/cspreport&#xd;
+content-encoding: gzip&#xd;
+server: ESF&#xd;
+x-xss-protection: 0&#xd;
+alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,62 @@
+<http-page executeResourcesDynamically="false" name="/oauth2/v4/token_1"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline/%resources%/recorded-artifacts/b82987d6-8ae1-408d-8b80-481fed30b104.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b82987d6-8ae1-408d-8b80-481fed30b104">
+    <embedded-action>1a0b6548-d4fe-4551-aae6-df018ef6435b</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/oauth2/v4/token" path="/oauth2/v4/token"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline/%resources%/recorded-artifacts/b82987d6-8ae1-408d-8b80-481fed30b104.zip"
+    recordedResponseCode="200" responseSize="1210"
+    serverUid="www.googleapis.com" slaProfileEnabled="false"
+    uid="1a0b6548-d4fe-4551-aae6-df018ef6435b" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[Y2xpZW50X2lkPTc3MTg1NDI1NDMwLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tJmNsaWVudF9zZWNyZXQ9T1RKZ1VPUWNUN2xPN0dzR1pxMkc0SWxUJmdyYW50X3R5cGU9cmVmcmVzaF90b2tlbiZyZWZyZXNoX3Rva2VuPTEvQmk3blNHejZOWVNrUnZVNkJZMnkyYWZENzRBaWV5WFFFdFBjbmh1cXVLMkpvOS1BNXMyRV9BNHJ3WXdicEtacCZzY29wZT1odHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL3VzZXJpbmZvLmVtYWlsK2h0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL2F1dGgvdXNlcmluZm8ucHJvZmlsZQ==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_413fcbdf-5866-433b-a72e-c8af959c3c3a</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_413fcbdf-5866-433b-a72e-c8af959c3c3a.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="client_id"
+        recordRawValue="77185425430.apps.googleusercontent.com"
+        separator="=" value="77185425430.apps.googleusercontent.com" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="client_secret"
+        recordRawValue="OTJgUOQcT7lO7GsGZq2G4IlT" separator="="
+        value="OTJgUOQcT7lO7GsGZq2G4IlT" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="grant_type"
+        recordRawValue="refresh_token" separator="="
+        value="refresh_token" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false"
+        name="refresh_token"
+        recordRawValue="1/Bi7nSGz6NYSkRvU6BY2y2afD74AieyXQEtPcnhuquK2Jo9-A5s2E_A4rwYwbpKZp"
+        separator="="
+        value="1/Bi7nSGz6NYSkRvU6BY2y2afD74AieyXQEtPcnhuquK2Jo9-A5s2E_A4rwYwbpKZp" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false" name="scope"
+        recordRawValue="https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile"
+        separator="="
+        value="https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json; charset=utf-8&#xd;
+vary: Origin&#xd;
+vary: X-Origin&#xd;
+vary: Referer&#xd;
+content-encoding: gzip&#xd;
+date: Sun, 20 Oct 2019 15:47:54 GMT&#xd;
+server: scaffolding on HTTPServer2&#xd;
+cache-control: private&#xd;
+content-length: 931&#xd;
+x-xss-protection: 0&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+x-content-type-options: nosniff&#xd;
+alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
