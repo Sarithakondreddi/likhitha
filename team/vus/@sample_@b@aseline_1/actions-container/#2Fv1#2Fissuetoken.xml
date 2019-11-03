@@ -1,0 +1,70 @@
+<http-page executeResourcesDynamically="false" name="/v1/issuetoken"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline_1/%resources%/recorded-artifacts/fb7913be-5866-4717-9d91-18af40de631b.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="fb7913be-5866-4717-9d91-18af40de631b">
+    <embedded-action>b172caed-0f8b-4d73-a3c3-d272de57fb34</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_48f666d7-cbaa-4c73-ac3e-2c0ea40e377e.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=UTF-8"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/v1/issuetoken" path="/v1/issuetoken"
+    postCharset="iso-8859-1" postType="1"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline_1/%resources%/recorded-artifacts/fb7913be-5866-4717-9d91-18af40de631b.zip"
+    recordedResponseCode="200" responseSize="375"
+    serverUid="oauthaccountmanager.googleapis.com"
+    slaProfileEnabled="false" uid="b172caed-0f8b-4d73-a3c3-d272de57fb34" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[Zm9yY2U9ZmFsc2UmcmVzcG9uc2VfdHlwZT10b2tlbiZzY29wZT1odHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL2NhbGVuZGFyLnJlYWRvbmx5K2h0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL2F1dGgvY2FzdC1lZHUtbWVzc2FnaW5nK2h0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL2F1dGgvY2xvdWRkZXZpY2VzK2h0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL2F1dGgvaGFuZ291dHMraHR0cHM6Ly93d3cuZ29vZ2xlYXBpcy5jb20vYXV0aC9oYW5nb3V0cy5yZWFkb25seStodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9hdXRoL21lZXRpbmdzK2h0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL2F1dGgvcGx1cy5wZW9wbGVhcGkucmVhZHdyaXRlK2h0dHBzOi8vd3d3Lmdvb2dsZWFwaXMuY29tL2F1dGgvdXNlcmluZm8uZW1haWwmY2xpZW50X2lkPTkxOTY0ODcxNDc2MS01NWo5NjVvMGttMDMzcHN2M2k5cWxzNW1vM3F0ZHJiMC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSZvcmlnaW49cGtlZGNqa2RlZmdwZGVscGJjbWJtZW9tY2piZWVtZm0mZGV2aWNlX2lkPTViNmRiMDA0LWI2ZTctNGM2Yy04NTk5LTkwZDM2MTdiOWMwOCZkZXZpY2VfdHlwZT1jaHJvbWUmbGliX3Zlcj1leHRlbnNpb24=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_e30bb583-5c6f-41e2-9562-282ee1f0a823</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e30bb583-5c6f-41e2-9562-282ee1f0a823.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="force"
+        recordRawValue="false" separator="=" value="false" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="response_type"
+        recordRawValue="token" separator="=" value="token" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false" name="scope"
+        recordRawValue="https://www.googleapis.com/auth/calendar.readonly+https://www.googleapis.com/auth/cast-edu-messaging+https://www.googleapis.com/auth/clouddevices+https://www.googleapis.com/auth/hangouts+https://www.googleapis.com/auth/hangouts.readonly+https://www.googleapis.com/auth/meetings+https://www.googleapis.com/auth/plus.peopleapi.readwrite+https://www.googleapis.com/auth/userinfo.email"
+        separator="="
+        value="https://www.googleapis.com/auth/calendar.readonly+https://www.googleapis.com/auth/cast-edu-messaging+https://www.googleapis.com/auth/clouddevices+https://www.googleapis.com/auth/hangouts+https://www.googleapis.com/auth/hangouts.readonly+https://www.googleapis.com/auth/meetings+https://www.googleapis.com/auth/plus.peopleapi.readwrite+https://www.googleapis.com/auth/userinfo.email" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="client_id"
+        recordRawValue="919648714761-55j965o0km033psv3i9qls5mo3qtdrb0.apps.googleusercontent.com"
+        separator="="
+        value="919648714761-55j965o0km033psv3i9qls5mo3qtdrb0.apps.googleusercontent.com" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="origin"
+        recordRawValue="pkedcjkdefgpdelpbcmbmeomcjbeemfm" separator="="
+        value="pkedcjkdefgpdelpbcmbmeomcjbeemfm" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="device_id"
+        recordRawValue="5b6db004-b6e7-4c6c-8599-90d3617b9c08"
+        separator="=" value="5b6db004-b6e7-4c6c-8599-90d3617b9c08" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="device_type"
+        recordRawValue="chrome" separator="=" value="chrome" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="lib_ver"
+        recordRawValue="extension" separator="=" value="extension" valueMode="USE_VALUE"/>
+    <header name="authorization" value="Bearer ya29.IqwBogd12A5yWQn_CA5BpHV0b78UNlQYGiWS-1SZ5qyL6u9wjjHNyRY2WWRMJqmaIPmbWWUe6kn_4dgTHgMp_NICi6wLleejfWSmOl3c0vIiacKjFRM6TaHWNIiwvqTjEAgzoWaAvl-8ZemYevJp6vJNdJ-FYWG88hYMjtGqyN7JYQV2L0hI7TKEbbm2liXyGMAX2X9Np6AdHdiyCT0AINFBnonJOCXX9YIBlJvRzQ"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+pragma: no-cache&#xd;
+date: Sun, 20 Oct 2019 15:47:56 GMT&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+expires: Mon, 01 Jan 1990 00:00:00 GMT&#xd;
+content-type: application/json; charset=UTF-8&#xd;
+vary: Origin&#xd;
+vary: X-Origin&#xd;
+vary: Referer&#xd;
+content-encoding: gzip&#xd;
+server: ESF&#xd;
+content-length: 338&#xd;
+x-xss-protection: 0&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+x-content-type-options: nosniff&#xd;
+alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

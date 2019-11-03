@@ -1,0 +1,75 @@
+<http-page executeResourcesDynamically="false"
+    name="/safebrowsing/csd/client_model_v5_variation_0.pb"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline_1/%resources%/recorded-artifacts/e3a26301-32ec-41ed-b90c-63334b4b6204.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e3a26301-32ec-41ed-b90c-63334b4b6204">
+    <embedded-action>3e8368ef-ef82-4eae-92d3-3b9291bef059</embedded-action>
+    <embedded-action>8ed67206-8b70-4a53-8d7d-ead9efafecc6</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_dbd217cd-b85a-4820-8a4e-66a0ff02d6d6.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/octet-stream"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/safebrowsing/csd/client_model_v5_variation_0.pb"
+    path="/safebrowsing/csd/client_model_v5_variation_0.pb" postType="1"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline_1/%resources%/recorded-artifacts/e3a26301-32ec-41ed-b90c-63334b4b6204.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ssl.gstatic.com" slaProfileEnabled="false"
+    uid="3e8368ef-ef82-4eae-92d3-3b9291bef059" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_eb82e48a-684a-4a90-bc86-3c0414197917.txt</requestContentFileDescription>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+vary: Accept-Encoding&#xd;
+content-type: application/octet-stream&#xd;
+content-length: 77948&#xd;
+date: Wed, 16 Oct 2019 00:01:09 GMT&#xd;
+expires: Thu, 24 Oct 2019 00:01:09 GMT&#xd;
+last-modified: Thu, 21 Apr 2016 03:17:22 GMT&#xd;
+x-content-type-options: nosniff&#xd;
+server: sffe&#xd;
+x-xss-protection: 0&#xd;
+cache-control: public, max-age=691200&#xd;
+age: 402411&#xd;
+alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/octet-stream"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/safebrowsing/csd/client_model_v5_ext_variation_0.pb"
+    path="/safebrowsing/csd/client_model_v5_ext_variation_0.pb"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline_1/%resources%/recorded-artifacts/e3a26301-32ec-41ed-b90c-63334b4b6204.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="ssl.gstatic.com" slaProfileEnabled="false"
+    uid="8ed67206-8b70-4a53-8d7d-ead9efafecc6" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_baa1a251-2ec9-4b34-97e9-5178845c4493.txt</requestContentFileDescription>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+accept-ranges: bytes&#xd;
+vary: Accept-Encoding&#xd;
+content-type: application/octet-stream&#xd;
+content-length: 77948&#xd;
+date: Tue, 15 Oct 2019 20:05:24 GMT&#xd;
+expires: Wed, 23 Oct 2019 20:05:24 GMT&#xd;
+last-modified: Thu, 21 Apr 2016 03:17:22 GMT&#xd;
+x-content-type-options: nosniff&#xd;
+server: sffe&#xd;
+x-xss-protection: 0&#xd;
+cache-control: public, max-age=691200&#xd;
+age: 416556&#xd;
+alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

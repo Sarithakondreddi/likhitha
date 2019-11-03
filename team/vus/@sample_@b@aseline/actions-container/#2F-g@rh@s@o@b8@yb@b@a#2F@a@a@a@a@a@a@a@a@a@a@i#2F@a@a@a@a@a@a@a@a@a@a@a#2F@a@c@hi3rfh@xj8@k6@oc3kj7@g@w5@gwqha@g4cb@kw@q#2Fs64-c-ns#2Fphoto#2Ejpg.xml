@@ -1,0 +1,44 @@
+<http-page executeResourcesDynamically="false"
+    name="/-gRhSOB8YbBA/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfhXj8K6Oc3kj7GW5GwqhaG4cbKwQ/s64-c-ns/photo.jpg"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline/%resources%/recorded-artifacts/1a3c38d5-58f4-4f15-a297-b86deaec639a.zip"
+    slaProfileEnabled="false" thinkTime="887"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="1a3c38d5-58f4-4f15-a297-b86deaec639a">
+    <embedded-action>e68c5d19-caed-4ff3-b008-d547e65e07cd</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/-gRhSOB8YbBA/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfhXj8K6Oc3kj7GW5GwqhaG4cbKwQ/s64-c-ns/photo.jpg"
+    path="/-gRhSOB8YbBA/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfhXj8K6Oc3kj7GW5GwqhaG4cbKwQ/s64-c-ns/photo.jpg"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@sample_@b@aseline/%resources%/recorded-artifacts/1a3c38d5-58f4-4f15-a297-b86deaec639a.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="lh3.googleusercontent.com" slaProfileEnabled="false"
+    uid="e68c5d19-caed-4ff3-b008-d547e65e07cd" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_455fec92-5db3-44cc-8e62-5d071801e1aa.txt</requestContentFileDescription>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+access-control-expose-headers: Content-Length&#xd;
+expires: Mon, 21 Oct 2019 15:47:56 GMT&#xd;
+cache-control: public, max-age=86400, no-transform&#xd;
+content-disposition: inline;filename=""&#xd;
+content-type: image/png&#xd;
+vary: Origin&#xd;
+access-control-allow-origin: *&#xd;
+timing-allow-origin: *&#xd;
+x-content-type-options: nosniff&#xd;
+date: Sun, 20 Oct 2019 15:47:56 GMT&#xd;
+server: fife&#xd;
+content-length: 854&#xd;
+x-xss-protection: 0&#xd;
+alt-svc: quic=":443"; ma=2592000; v="46,43",h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
